@@ -1,8 +1,8 @@
-
 body {
     margin: 0;
     font-family: "Karla", sans-serif;
     text-align: center;
+    background: white;
 }
 
 .container {
@@ -14,35 +14,18 @@ body {
     display: flex;
     margin: 90px auto;
     padding: 30px 0  0 40px;
-}
-/*
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 32px;
-    height: 32px;
+    background: #0EA5E9;
+    border: 4px solid #273549;
 }
 
-.switch input { 
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-*/
 h1 {
     margin-top: 90px;
     font-size: 28px;
     font-weight: 800;
     line-height: 38px;
+    color: white;
 }
-/*
-p {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    margin-top: -20px;
-}
-*/
+
 .generate-btn {
     background-color: white;
     color: #0EA5E9;
@@ -64,85 +47,3 @@ p {
 	transform: scale(0.98);
 	transition: transform 0.2s;	
 }
-
-.results{
-	display: flex;
-	justify-content: space-around;
-}
-
-.password-field {
-    width: 180px;
-    height: 20px;
-    background-color: #273549;
-    color: #55F991;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-	border-radius: 6px;
-    padding: 10px;
-    border: none;
-}
-
-
-/* Text color in normal mode */
-
-body {
-    background: white;
-}
-
-.container {
-    background: #0EA5E9;
-    border: 4px solid #273549;
-}
-
-.slider:before {
-    background-color: none;
-}
-
-.label-text-darkmode {
-    color: #6B7280;
-}  
-
-.h1 {
-    color: white;
-}
-
-.p-text {
-    color: #6B7280;
-}
-
-/* Text color in dark mode */
-
-body .dark-mode {
-    background: black;
-}
-
-.dark-mode .slider:before {
-    background-color: none;
-}
-
-.dark-mode {
-    background: #1C1C1C;
-}
-  
-.dark-mode .container {
-    background: #1F2937;
-    border: 4px solid white;
-}
-
-.dark-mode .h1-word1 {
-    color: white;
-}
-  
-.dark-mode .h1-word2 {
-    color: #4ADF86;
-}
-
-.dark-mode .p-text {
-     color: #D5D4D8;
-}   
-
-.dark-mode .label-text-darkmode {
-    color: #D5D4D8;
-}  
-
