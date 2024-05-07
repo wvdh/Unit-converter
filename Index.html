@@ -12,13 +12,24 @@
     </head>
     <body>
         <div class="container">
-            <div>
+            <div class="header" >
                 <h1 class="h1">Metric/Imperial  Unit Conversion</h1>
-                <input type="number" id="input-el" min="0" max="999"><br>
-
+                <input type="text" id="input-el" inputmode="numeric" required="required" pattern="(([1-9][0-9])|([1][0-9])|[0-9])">
                 <button type="button" id="convert-btn">Convert</button>
             </div>
-        <div>
+            <div class="result">
+                Length (Meter/Feet)
+                <p class="resultText" id="lengthConvert"></p>
+            </div>
+            <div class="result">
+                Volume (Liters/Gallons)
+                <p class="resultText" id="volumeConvert"></p>
+            </div>
+            <div class="result">
+                Mass (Kilograms/Pounds)
+                <p class="resultText" id="massConvert"></p>
+            </div>
+        </div>        
         <script src="index.js"></script>
     </body>
 </html>
