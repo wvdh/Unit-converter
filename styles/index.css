@@ -23,14 +23,15 @@ body {
     width: 550px;
     height: 285px;
     background-color: #0EA5E9;
+    box-shadow: 5px 10px 8px #141a32;
 }
 
 h1 {
     margin-top: 25px;
     font-size: 28px;
     font-weight: 800;
-    //line-height: 38px;
     color: white;
+    text-shadow: 5px 10px 8px #141a32;
 }
 
 #input-el {
@@ -44,6 +45,8 @@ h1 {
     font-size: 58px;
     text-align: center;
     cursor: pointer;
+    box-shadow: 5px 10px 8px #141a32;
+    text-shadow: 5px 10px 8px #141a32;
 }
 
 #convert-btn {
@@ -75,8 +78,8 @@ h1 {
 /* Chrome, Safari, Edge, Opera */
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* Firefox */
@@ -95,6 +98,7 @@ input[type=number] {
     width: 500px;
     height: 80px;
     padding-top: 31px;
+    text-shadow: 5px 10px 8px #141a32;
     box-shadow: 5px 10px 8px #141a32;
 }
 
@@ -102,4 +106,5 @@ input[type=number] {
     color: white;
     font-size: 14px;
     font-weight: lighter;
+    text-shadow: 5px 10px 8px #141a32;
 }
