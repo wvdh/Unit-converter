@@ -1,3 +1,4 @@
+//Function for max input to convert 999.
 function limitToMax(element) {
     if (parseInt(element.value) > 999) {
         element.value = '999';
