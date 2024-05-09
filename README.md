@@ -1,7 +1,7 @@
 # Unit-converter
 Metric/Imperial Unit Conversion <br>
 <br>
-https://wvdh.github.io/Unit-converter/
+https://wvdh.github.io/unit-converter/
 <br>
 <br>
 
